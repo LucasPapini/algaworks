@@ -50,6 +50,7 @@ export const Wrapper = styled.button<{ variant: 'danger' | 'text' | 'primary' }>
     color: ${p => THEME[p.variant].color};
     background-color: ${p => THEME[p.variant].bg};
     border: 1px solid ${p => THEME[p.variant].bg};
+    cursor: pointer;
 
     &:hover,
     &:focus{
