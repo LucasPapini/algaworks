@@ -10,9 +10,11 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.0-rc.3",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@storybook/addon-essentials": "7.0.17",
     "@storybook/addon-interactions": "7.0.17",
     "@storybook/addon-links": "7.0.17",
@@ -51,6 +54,7 @@
     "@storybook/react": "7.0.17",
     "@storybook/react-webpack5": "7.0.17",
     "@storybook/testing-library": "0.0.14-next.2",
+    "@types/styled-components": "^5.1.26",
     "babel-plugin-named-exports-order": "0.0.2",
     "prop-types": "15.8.1",
     "storybook": "7.0.17",
