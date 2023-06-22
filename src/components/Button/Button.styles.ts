@@ -64,4 +64,5 @@ export const Wrapper = styled.button<{
     color: ${p => THEME[p.variant].disabled.color};
     border-color: transparent;
   }
+  cursor: pointer;
 `
