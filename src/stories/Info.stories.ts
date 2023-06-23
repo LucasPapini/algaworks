@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Info, { InfoProps } from '../components/Info/Info';
 
 const meta: Meta<typeof Info> = {
-    title: 'Info',
+    title: 'Example/Info',
     component: Info,
     tags: ['autodocs'],
 };
