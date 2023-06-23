@@ -9,6 +9,7 @@ import { Column, useTable } from "react-table";
 const meta: Meta<typeof Table> = {
     title: 'Example/Table',
     component: Table,
+    tags: ['autodocs'],
 };
 
 export default meta;
