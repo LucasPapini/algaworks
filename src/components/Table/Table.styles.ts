@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 
 
 export const Wrapper =  styled.table`
+    width: 100%;
     color: #274060;
     background-color: ${transparentize(0.95, '#274060')};
 `;
@@ -19,6 +20,7 @@ export const HeadingRow =  styled.tr``;
 export const HeadingCell =  styled.th`
     height: 37px;
     font-size: 14px;
+    padding: 0 8px;
 `;
 //FIM HEADING
 
