@@ -9,7 +9,7 @@ export interface ProgressBarProps {
 }
 
 
-export default function ProgressBar (props: ProgressBarProps) {
+export default function ProgressBar(props: ProgressBarProps) {
   return <ProgressBarWrapper style={{ width: props.width || 'auto' }}>
     <TextShadow progress={props.progress} theme={props.theme}>
       {props.title}
